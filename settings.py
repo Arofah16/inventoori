@@ -75,14 +75,14 @@ WSGI_APPLICATION = 'inventori.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgesql_psycopg2',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'inventori',
         'USER': 'postgres',
-        'PASSWORD' :'123',
+        'PASSWORD' :'postgres',
         'HOST' : 'localhost',
         'PORT' :'5432',
 
-    }
+    }       
 }
 
 
